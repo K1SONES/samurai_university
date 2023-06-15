@@ -50,7 +50,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="<?php echo home_url(); ?>/category/graduate">
-                    GRADUATE
+                    GRADUATES
                     <p>卒業生の声</p>
                   </a>
                 </li>
