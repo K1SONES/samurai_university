@@ -12,10 +12,6 @@
       </div>
     </div>
 
-    <!-- Course -->
-
-    <div class="course">
-      <div class="row content-body">
         <!-- Course -->
         <?php if (have_posts()) : //ループを実装する ?>
        <?php while (have_posts()) : the_post(); ?>
