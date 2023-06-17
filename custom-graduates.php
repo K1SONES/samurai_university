@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: graduates
+Template Name: 卒業生の声ページ
 Template Post Type: post
 */
 ?>
