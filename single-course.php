@@ -28,7 +28,8 @@
                 <div class="tab_panel_header">
                 </div>
                 <div class="tab_panel_content">
-                  <div class="course_image"><img src="images/PIC6-3.jpg" alt=""></div>
+                  <div class="course_image">
+                    <?php the_post_thumbnail('large') ;?>
                   <div class="tab_panel_text">
                     <p>
                       広い視野とコミュニケーションスキルを持つ、世界に通用する教育者を育成します。
