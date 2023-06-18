@@ -30,6 +30,7 @@
                 <div class="tab_panel_content">
                   <div class="course_image">
                     <?php the_post_thumbnail('large') ;?>
+                  </div>  
                   <div class="tab_panel_text">
                     <p>
                       <?php the_content(); ?>
