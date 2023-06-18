@@ -32,16 +32,16 @@
                     <?php the_post_thumbnail('large') ;?>
                   <div class="tab_panel_text">
                     <p>
-                      広い視野とコミュニケーションスキルを持つ、世界に通用する教育者を育成します。
+                      <?php the_content(); ?>
                     </p>
                   </div>
                   <div class="campus_footer_content d-flex flex-row align-items-center justify-content-start">
-                    <img src="images/clock.png"><span>2019/4/23</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png"><span><?php the_time('Y年n月j日'); ?></span>
                   </div>
                   <hr>
                   <div class="social_share">
-                    <img src="images/facebook-square-brands.png" alt="">
-                    <img src="images/twitter-square-brands.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-square-brands.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-square-brands.png" alt="">
                   </div>
                 </div>
               </div>
