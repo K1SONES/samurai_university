@@ -24,7 +24,7 @@
             <div class="tab_panels">
               <!-- Description -->
               <div class="tab_panel">
-                <div class="tab_panel_title">教育学部</div>
+                <div class="tab_panel_title"><?php the_title(); ?></div>
                 <div class="tab_panel_header">
                 </div>
                 <div class="tab_panel_content">
