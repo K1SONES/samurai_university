@@ -67,17 +67,14 @@
                            <div class="news_post_small_title">
                              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                            </div>
-                           <div class="news_post_meta">
-                              <?php
-                                // 投稿のコンテンツを取得
-                                $content = get_the_content();
-                                // 改行で分割して配列に格納
-                                $content_lines = explode("\n", $content);
-                                // 2行目と3行目を表示
-                                echo $content_lines[1] . '<br>';
-                                echo $content_lines[2];
-                              ?>
-                           </div>
+                              <div class="news_post_meta">
+                              <ul>
+                               <li>
+                                 <?php echo wp_trim_words( get_the_content() , 100, '...'); ?>
+                               </li>
+                             </ul>
+
+                              </div>
                            <div class="read_continue">
                            <button><a href="<?php the_permalink(); ?>" class="text-white">詳細を見る</a></button>
                            </div>

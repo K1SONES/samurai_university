@@ -68,12 +68,11 @@
                              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                            </div>
                            <div class="news_post_meta">
-                             <ul>
+                            <ul>
                                <li>
                                  <?php echo wp_trim_words( get_the_content() , 100, '...'); ?>
                                </li>
                              </ul>
-                           </div>
                            <div class="read_continue">
                            <button><a href="<?php the_permalink(); ?>" class="text-white">詳細を見る</a></button>
                            </div>
